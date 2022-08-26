@@ -1,7 +1,7 @@
 import cpp
 
 class NetworkMacros extends string {
-    NetworkMacros() {this in ["ntohs", "nothl", "ntohll"]}
+    NetworkMacros() {this in ["ntohs", "ntohl", "ntohll"]}
 }
 
 from Macro macros
