@@ -5,5 +5,5 @@ class NetworkMacros extends string {
 }
 
 from MacroInvocation macroInv
-where macroInv.getParentInvocation().getMacroName() instanceof NetworkMacros
+where macroInv.getMacroName() instanceof NetworkMacros
 select macroInv
